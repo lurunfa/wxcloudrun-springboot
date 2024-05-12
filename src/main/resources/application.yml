@@ -12,6 +12,18 @@ spring:
     view:
       suffix: .html
       prefix: /
+  redis:
+    host: 183.232.249.91
+    port: 39522
 
 mybatis:
   mapper-locations: classpath*:mapper/*Mapper.xml
+
+wx:
+  mp:
+    app-id: wxfc3aa182ebd177a2
+    secret: EZyLH8YUOC7psTUMTnUqWHPRuLoC5ANWELbQhV7Dd0P
+    token: 635433594133355333
+    config-storage:
+      type: redistemplate
+
